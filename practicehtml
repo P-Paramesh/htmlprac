@@ -1,10 +1,9 @@
   <!DOCTYPE html>
   <html>
   <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title></title>
+    <title>hey hi what trouble?</title>
     <style>
+    
     :root {
      color-scheme: light dark;
 }
@@ -93,10 +92,11 @@ h2 {
     
     </style>
     </head>
-    <body>
+    
+ <body>
     <p class="notice">Your browser does not support the <code>accent-color</code> property.</p>
 
-<form action="">
+  <form action="">
   <section class="light">
     <fieldset>
       <h2>Checkboxes</h2>
@@ -225,9 +225,9 @@ h2 {
           Accent
         </label>
         <input id="range-accent" class="accent" type="range">
-      </div>
-    </fieldset>
-  </section>
-</form>  
+          </div>
+          </fieldset>
+        </section>
+      </form>  
   </body>
   </html>
