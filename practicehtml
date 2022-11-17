@@ -94,6 +94,61 @@ h2 {
     </head>
     
  <body>
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+
+    <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+          <img src="/home/paramesh/Desktop/images/asista-logo.png" width="150px" hspace="15px" />
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarScroll">
+            <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Blog</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Package
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Basic</a></li>
+                  <li><a class="dropdown-item" href="#">Ultra Basic</a></li>
+                  <li><hr class="dropdown-item" href="#">Pro></li>
+                  <li><a class="dropdown-item" href="#">Ultra Pro</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled">Enquiry</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="tYPe to kNow...." aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+      <nav class="navbar navbar-expand-lg bg-light" >
+        <div class="card mb-3" style="max-width: 150rem;">
+  <div class="row g-0">
+    <div class="col-md-4">
+      <img src="/home/paramesh/Desktop/images/1_asista_home_banner_1_shutterstock_1953916072-scaled-1.jpg" class="img-fluid rounded-start" alt="shutterstock" style="max-width: 50rem;">
+    </div>
+        <div class="col-md-8">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+      </div>
+    </div>
+
+</div>
+    </nav>
+
     <p class="notice">Your browser does not support the <code>accent-color</code> property.</p>
 
   <form action="">
